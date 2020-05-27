@@ -13,5 +13,6 @@ Spring框架中最重要的是控制反转(Ioc)。关于Spring框架Ioc的深入
 		 ·管理资源处理（通过使用国际化）
 		 ·事件发布
 		 ·应用层规范环境比如web应用使用WebApplicationContext
-	简而言之，BeanFactory提供了构造框架和基础设计，ApplicationContext增加了更多的企业环境规范。ApplicationContext整和了BeanFactory集合并且在使用控制反转时排他性。想了解更多的使用BeanFactory替代ApplicationContext请看The BeanFactory.
-	在Spring中，对象来自于你配置的基础，也管理通过控制反转的对象。一个实例就是一个对象的示例，聚集和被控制反转管理。换句话说，一个实例不过是你应用中许多对象中的一个。配置中的许多对象是通过控制器直接映射在构造的元数据。
+		 
+   简而言之，BeanFactory提供了构造框架和基础设计，ApplicationContext增加了更多的企业环境规范。ApplicationContext整和了BeanFactory集合并且在使用控制反转时排他性。想了解更多的使用BeanFactory替代ApplicationContext请看The BeanFactory.
+   在Spring中，对象来自于你配置的基础，也管理通过控制反转的对象。一个实例就是一个对象的示例，聚集和被控制反转管理。换句话说，一个实例不过是你应用中许多对象中的一个。配置中的许多对象是通过控制器直接映射在构造的元数据。
