@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="springboot.simple.dao.NgUpcMapper">
+
+    <resultMap id="BaseResultMap" type="springboot.simple.entity.NgUpc">
+        <!--@Table ng_upc-->
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+        <result property="modifyTime" column="modify_time" jdbcType="TIMESTAMP"/>
+        <result property="isDeleted" column="is_deleted" jdbcType="BOOLEAN"/>
+        <result property="upc" column="upc" jdbcType="VARCHAR"/>
+        <result property="upcDesc" column="upc_desc" jdbcType="VARCHAR"/>
+        <result property="size" column="size" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="BaseResultMap">
+        select
+        id, create_time, modify_time, is_deleted, upc, upc_desc, size
+        from night.ng_upc
+        where id = #{id}
+    </select>
+</mapper>
