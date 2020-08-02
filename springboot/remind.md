@@ -4,4 +4,7 @@
     导入所有的mapper.xml文件,注意叫dao时名称的修改 
 4.mapper.xml中指定namespace表示对应的dao接口的位置
 5.额外引入mysql-connector-java mybatis-spring-boot-starter包
-    
+6.使用yml注入属性时  @Component
+              @ConfigurationProperties(prefix = "dog")
+              不论是否是子类还是什么 必须加上上面两个标签
+              以及提供get和set方法
