@@ -10,11 +10,13 @@
 
 ​			![image-20200803163303260](/Users/lixiaokang/Library/Application Support/typora-user-images/image-20200803163303260.png)
 
-​			3. next ->
+​			3. next -> 
 
-​		![WeChat1f1cba117ef79c6f2af835627ce0f25b](/Users/lixiaokang/Desktop/WeChat1f1cba117ef79c6f2af835627ce0f25b.png)		4. next->
+​			    packet name为project 下的名字
 
-​		![image-20200803163628195](/Users/lixiaokang/Library/Application Support/typora-user-images/image-20200803163628195.png)
+           ![WeChat1f1cba117ef79c6f2af835627ce0f25b](/Users/lixiaokang/Desktop/WeChat1f1cba117ef79c6f2af835627ce0f25b.png)		4. next->
+
+​		   ![image-20200803163628195](/Users/lixiaokang/Library/Application Support/typora-user-images/image-20200803163628195.png)
 
  	## 2) 项目的构建
 
