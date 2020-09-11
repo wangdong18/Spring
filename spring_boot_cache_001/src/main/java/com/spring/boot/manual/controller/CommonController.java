@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @since 2020-08-13
  */
 @RestController
-public class Common {
+public class CommonController {
 
     @Autowired
     private UserService userService;
