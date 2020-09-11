@@ -1,0 +1,4 @@
+com/mortal/starter/properties/DemoProperties.class
+META-INF/spring-configuration-metadata.json
+com/mortal/starter/service/DemoService.class
+com/mortal/starter/configuration/DemoServiceAutoConfiguration.class

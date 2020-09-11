@@ -1,0 +1,38 @@
+package com.mortal.starter.properties;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+
+
+/**
+ * @author mortal
+ * @since 2020-09-11
+ */
+@ConfigurationProperties("demo")
+public class DemoProperties {
+    private String name;
+    private Integer age;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "DemoProperties{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
+}

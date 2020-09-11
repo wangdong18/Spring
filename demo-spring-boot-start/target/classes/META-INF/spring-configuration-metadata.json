@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "demo",
+      "type": "com.mortal.starter.properties.DemoProperties",
+      "sourceType": "com.mortal.starter.properties.DemoProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "demo.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.mortal.starter.properties.DemoProperties"
+    },
+    {
+      "name": "demo.name",
+      "type": "java.lang.String",
+      "sourceType": "com.mortal.starter.properties.DemoProperties"
+    }
+  ],
+  "hints": []
+}
